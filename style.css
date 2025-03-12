@@ -1,0 +1,14 @@
+.logo-container {
+    text-align: center; /* لتوسيط اللوجو */
+    margin: 20px 0; /* هامش أعلى وأسفل */
+}
+
+.logo {
+    width: 150px; /* عرض اللوجو */
+    height: auto; /* الحفاظ على نسبة الطول */
+    transition: transform 0.3s ease; /* تأثير تحريك بسيط */
+}
+
+.logo:hover {
+    transform: scale(1.1); /* تكبير اللوجو عند التمرير */
+}
